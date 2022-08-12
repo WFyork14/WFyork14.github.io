@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    background:url(./trening-po-rabote-s-klientami\ \(1\).png) ;
+    background-size: cover;
+    background-position:center center ;
+    height:  500px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    padding: 17px 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.logo{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+position: absolute;
+width: 111px;
+height: 15px;
+left: 342px;
+top: 17px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+/* Orange */
+color: #DD4400;
+}
+header nav ul li a {
+    font-family:'Montserrat';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 15px;
+     color:#DD4400;
+}
+
+section {
+    
+  padding: 36px 0px 50px;
+}
+section menu .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center; color: black;
+    border: 1px solid;
+    justify-content: space-between;
+    width: 1200px;
+    margin: aut
+
+}
+section .menu.box {
+     color: red;
+    width:100%;
+    height: 100px;
+}
